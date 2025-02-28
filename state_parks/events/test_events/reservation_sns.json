@@ -1,0 +1,27 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-1:192994485053:tentrr-core-prod:15d0a554-b4fc-46d8-a3f6-d3c38c2adc0d",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "5966c72b-65d9-5361-a601-9fbf862ad267",
+                "TopicArn": "arn:aws:sns:us-east-1:192994485053:tentrr-core-prod",
+                "Subject": null,
+                "Message": "{\"res_number\": \"2-39511585\", \"invoice_number\": 451307215, \"event_id\": null, \"res_status\": \"Checked Out\", \"associated\": null, \"customer\": \"schultz, brylan\", \"camper_phone\": 9495335095, \"camper_email\": \"nalyrb@hotmail.com\", \"org_name\": null, \"occupancy\": 9, \"park_name\": \"East Canyon State Park\", \"area\": \"Tentrr - Furnished Wall Tents\", \"site_name\": \"Tentrr 009-009\", \"type\": \"OverNight\", \"arrival\": \"Aug 7, 2020\", \"departure\": \"Aug 9, 2020\", \"timeblocks\": null, \"res_balance\": \"$0.00\", \"res_charges_balance\": \"$0.00\", \"test_1\": null, \"test_2\": null, \"use_fees\": \"$290.00\"}",
+                "Timestamp": "2021-02-03T17:47:31.499Z",
+                "SignatureVersion": "1",
+                "Signature": "Os5lunYGU6csb+kTceVMTX6qsQSwf/aj+o8mwCoCIFGosG7RMeN3XYPb3gtfZ7EX6owex8exO3EIkqClBP2aZDmN5vLg80+KrOodrUGmYiOfoRjEksjDewynqosvgHJvYkBdBWATT6OHMlmm8h/6dE0Q6QRPj/aT7+nTYecR1iRtDGSwHg9wWgKOFLt8GAojz6my2KLrY8CkdBjnbHKpOn+bXJONwVqPUD/ze4hWQusThUbgUvWgde65HxiPWYKGA9+mJL8FDnlL8MPxy9n3J/fXl+QJUiGHHr8wxNTWPerLWEGU1MvgFDZYkBe3AG1Bf72cpEnkOfYX4VGyDA/RtQ==",
+                "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+                "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:192994485053:tentrr-core-prod:15d0a554-b4fc-46d8-a3f6-d3c38c2adc0d",
+                "MessageAttributes": {
+                    "event_type": {
+                        "Type": "String",
+                        "Value": "statepark.ingest"
+                    }
+                }
+            }
+        }
+    ]
+}
